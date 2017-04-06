@@ -1,4 +1,4 @@
 #
 class role::foreman{
-  notify{"Nick":}
+  include puppetdb
 }
