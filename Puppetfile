@@ -1,5 +1,3 @@
-# Nick's mind knows no bounds
-# Nick is a Nikon Man
 forge "https://forgeapi.puppetlabs.com"
 
 mod 'stdlib',
