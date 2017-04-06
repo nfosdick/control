@@ -86,7 +86,7 @@ mod 'gms',
 
 mod 'firewall',
   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
-  :ref => 'v1.0.3'
+  :ref => '1.8.2'
 
 #mod 'docker',
 #  :git => 'https://github.com/garethr/garethr-docker.git',
