@@ -1,3 +1,5 @@
+# Nick's mind knows no bounds
+# Nick is a Nikon Man
 forge "https://forgeapi.puppetlabs.com"
 
 mod 'stdlib',
@@ -80,3 +82,26 @@ mod 'puppet_agent',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppet_agent.git',
   :ref => '1.3.2'
 
+mod 'gms',
+  :git => 'https://github.com/abrader/abrader-gms.git',
+  :ref => 'v1.0.3'
+
+#mod 'docker',
+#  :git => 'https://github.com/garethr/garethr-docker.git',
+#  :ref => 'v5.3.0'
+
+#mod 'puppet',
+#  :git => 'https://github.com/theforeman/puppet-puppet.git',
+#  :ref => '6.0.1'
+
+#mod 'foreman',
+#  :git => 'https://github.com/theforeman/puppet-foreman.git',
+#  :ref => '6.0.0'
+
+#mod 'foreman_proxy',
+#  :git => 'https://github.com/theforeman/puppet-foreman_proxy.git',
+#  :ref => '4.0.3'
+
+#mod 'rabbitmq',
+#  :git => 'https://github.com/puppetlabs/puppetlabs-rabbitmq.git',
+#  :ref => '5.6.0'
