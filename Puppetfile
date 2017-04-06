@@ -84,6 +84,10 @@ mod 'gms',
   :git => 'https://github.com/abrader/abrader-gms.git',
   :ref => 'v1.0.3'
 
+mod 'firewall',
+  :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
+  :ref => 'v1.0.3'
+
 #mod 'docker',
 #  :git => 'https://github.com/garethr/garethr-docker.git',
 #  :ref => 'v5.3.0'
