@@ -100,6 +100,10 @@ mod 'gms',
   :git => 'https://github.com/abrader/abrader-gms.git',
   :ref => 'v1.0.3'
 
+mod 'vcsrepo',
+  :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo.git',
+  :ref => '1.5.0'
+
 #mod 'docker',
 #  :git => 'https://github.com/garethr/garethr-docker.git',
 #  :ref => 'v5.3.0'
