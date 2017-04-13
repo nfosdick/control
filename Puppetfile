@@ -64,6 +64,22 @@ mod 'postgresql',
   :git => 'https://github.com/puppetlabs/puppetlabs-postgresql.git',
   :ref => '4.9.0'
 
+mod 'pulp',
+  :git => 'https://github.com/Katello/puppet-pulp.git',
+  :ref => '5.1.2'
+
+mod 'puppetdb',
+  :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
+  :ref => '5.1.2'
+
+mod 'puppet_agent',
+  :git => 'https://github.com/puppetlabs/puppetlabs-puppet_agent.git',
+  :ref => '1.3.2'
+
+mod 'qpid',
+  :git => 'https://github.com/Katello/puppet-qpid.git',
+  :ref => '2.1.0'
+
 mod 'r10k',
   :git => 'https://github.com/voxpupuli/puppet-r10k.git',
   :ref => 'v5.0.0'
@@ -87,18 +103,6 @@ mod 'tftp',
 mod 'face-bucket',
   :git => 'https://github.com/dhgwilliam/puppet-face-bucket.git',
   :ref => '0.3.0'
-
-mod 'puppetdb',
-  :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
-  :ref => '5.1.2'
-
-mod 'puppet_agent',
-  :git => 'https://github.com/puppetlabs/puppetlabs-puppet_agent.git',
-  :ref => '1.3.2'
-
-mod 'gms',
-  :git => 'https://github.com/abrader/abrader-gms.git',
-  :ref => 'v1.0.3'
 
 mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo.git',
