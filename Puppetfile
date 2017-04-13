@@ -66,7 +66,7 @@ mod 'postgresql',
 
 mod 'pulp',
   :git => 'https://github.com/Katello/puppet-pulp.git',
-  :ref => '5.1.2'
+  :ref => '4.3.0'
 
 mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
