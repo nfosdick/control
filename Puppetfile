@@ -98,7 +98,7 @@ mod 'firewall',
 
 mod 'foreman',
   :git => 'https://github.com/theforeman/puppet-foreman.git',
-  :ref => '6.0.0'
+  :ref => '7.2.0'
 
 #mod 'foreman_proxy',
 #  :git => 'https://github.com/theforeman/puppet-foreman_proxy.git',
