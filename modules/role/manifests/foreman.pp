@@ -4,4 +4,5 @@ class role::foreman{
 #  include foreman
 #  include katello
   include puppetdb
+  include puppetdb::master::config
 }
