@@ -1,4 +1,5 @@
 node default {
+  notify{"Nick":}
   if ($::role) {
     include "role::${::role}"
   } else {
