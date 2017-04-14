@@ -1,5 +1,6 @@
 node default {
-  notify{"Nick":}
+  $role = $trusted['extensions']['pp_role']
+  notify{"Nick ${role}":}
   if ($::role) {
     include "role::${::role}"
   } else {
