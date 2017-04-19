@@ -1,8 +1,8 @@
 #
 class role::foreman{
   include r10k
-  #include foreman
+  include foreman
   
-  class { 'puppetdb' : }
-  class { 'puppetdb::master::config' : }
+  #class { 'puppetdb' : }
+  #class { 'puppetdb::master::config' : }
 }
