@@ -1,25 +1,61 @@
 forge "https://forgeapi.puppetlabs.com"
 moduledir "forge_modules"
 
+mod 'acl',
+  :git => 'https://github.com/puppetlabs/puppetlabs-acl.git',
+  :ref => '1.1.2'
+
+mod 'alternatives',
+  :git => 'https://github.com/voxpupuli/puppet-alternatives.git',
+  :ref => 'v1.1.0'
+
 mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
   :ref => '1.11.0'
 
-mod 'certs',
-  :git => 'https://github.com/Katello/puppet-certs.git',
-  :ref => '2.0.0'
+mod 'apt',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+  :ref => '3.0.0'
+
+mod 'archive',
+  :git => 'https://github.com/voxpupuli/puppet-archive.git',
+  :ref => 'v1.3.0'
+
+mod 'aws',
+  :git => 'https://github.com/puppetlabs/puppetlabs-aws.git',
+  :ref => '1.4.0'
+
+mod 'collectd',
+  :git => 'https://github.com/voxpupuli/puppet-collectd.git',
+  :ref => 'v5.3.0'
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
-  :ref => '2.2.0'
+  :ref => '3.0.0'
 
-mod 'exports',
-  :git => 'https://github.com/acidprime/exports.git',
-  :ref => 'v0.0.6'
+mod 'confluence',
+  :git => 'https://github.com/voxpupuli/puppet-confluence.git',
+  :ref => 'v2.3.0'
+
+mod 'dhcp',
+  :git => 'https://github.com/theforeman/puppet-dhcp.git',
+  :ref => '3.1.0'
+
+mod 'dns',
+  :git => 'https://github.com/theforeman/puppet-dns.git',
+  :ref => '4.1.0'
+
+mod 'docker',
+  :git => 'https://github.com/garethr/garethr-docker.git',
+  :ref => 'v5.3.0'
+
+mod 'epel',
+  :git => 'https://github.com/stahnma/puppet-module-epel.git',
+  :ref => '1.2.2'
 
 mod 'extlib',
   :git => 'https://github.com/voxpupuli/puppet-extlib.git',
-  :ref => 'v0.11.3'
+  :ref => 'v1.1.0'
 
 mod 'firewall',
   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
@@ -31,59 +67,71 @@ mod 'foreman',
 
 mod 'foreman_proxy',
   :git => 'https://github.com/theforeman/puppet-foreman_proxy.git',
-  :ref => '4.0.3'
+  :ref => '5.1.0'
 
-mod 'git',
-  :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
-  :ref => '0.5.0'
+mod 'haproxy',
+  :git => 'https://github.com/puppetlabs/puppetlabs-haproxy.git',
+  :ref => '1.5.0'
+
+mod 'hipchat',
+  :git => 'https://github.com/jamtur01/puppet-hipchat.git',
+  :ref => '0.6.0'
 
 mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
   :ref => '1.6.0'
 
-mod 'katello',
-  :git => 'https://github.com/Katello/puppet-katello.git',
-  :ref => '6.1.0'
+mod 'jenkins',
+  :git => 'https://github.com/jenkinsci/puppet-jenkins.git',
+  :ref => 'v1.7.0'
 
-mod 'logrotate',
-  :git => 'https://github.com/yo61/puppet-logrotate.git',
-  :ref => 'v1.4.0'
+mod 'jira',
+  :git => 'https://github.com/voxpupuli/puppet-jira.git',
+  :ref => 'v3.1.0'
 
-mod 'nfs',
-  :git => 'https://github.com/derdanne/puppet-nfs.git',
-  :ref => '2.0.3'
+mod 'nagios',
+  :git => 'https://github.com/thias/puppet-nagios.git',
+  :ref => '1.0.10'
 
-mod 'noop',
-  :git => 'https://github.com/trlinkin/trlinkin-noop.git',
-  :ref => '0.1.0'
+mod 'ossec',
+  :git => 'https://github.com/wazuh/ossec-puppet.git',
+  :ref => '2.0.20'
 
-mod 'ntp',
-  :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git',
-  :ref => '6.0.0'
+mod 'pe_gem',
+  :git => 'https://github.com/puppetlabs/puppetlabs-pe_gem.git',
+  :ref => '0.1.2'
 
 mod 'postgresql',
   :git => 'https://github.com/puppetlabs/puppetlabs-postgresql.git',
   :ref => '4.9.0'
 
-mod 'pulp',
-  :git => 'https://github.com/Katello/puppet-pulp.git',
-  :ref => '4.3.0'
+mod 'puppet',
+  :git => 'https://github.com/theforeman/puppet-puppet.git',
+  :ref => '7.1.1'
 
 mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
   :ref => '5.1.2'
 
-mod 'puppet_agent',
-  :git => 'https://github.com/puppetlabs/puppetlabs-puppet_agent.git',
-  :ref => '1.3.2'
-
-mod 'qpid',
-  :git => 'https://github.com/Katello/puppet-qpid.git',
-  :ref => '2.1.0'
-
 mod 'r10k',
   :git => 'https://github.com/voxpupuli/puppet-r10k.git',
-  :ref => 'v5.0.0'
+  :ref => 'v5.0.2'
+
+mod 'rabbitmq',
+  :git => 'https://github.com/thias/puppet-nagios.git',
+  :ref => '1.0.10'
+
+mod 'rbenv',
+  :git => 'https://github.com/justindowning/puppet-rbenv.git',
+  :ref => '2.2.0'
+
+mod 'runscope_radar',
+  :git => 'https://github.com/cloudmine/puppet-runscope_radar.git',
+  :ref => '0.1.1'
+
+mod 'splunk',
+  :git => 'https://github.com/voxpupuli/puppet-splunk.git',
+  :ref => 'v5.1.0'
 
 mod 'staging',
   :git => 'https://github.com/voxpupuli/puppet-staging.git',
@@ -93,30 +141,23 @@ mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
   :ref => '4.16.0'
 
-mod 'sudo',
-  :git => 'https://github.com/saz/puppet-sudo.git',
-  :ref => 'v4.1.0'
+mod 'sysctl',
+  :git => 'https://github.com/thias/puppet-sysctl.git',
+  :ref => '1.0.6'
 
 mod 'tftp',
   :git => 'https://github.com/theforeman/puppet-tftp.git',
   :ref => '2.0.0'
 
-mod 'face-bucket',
-  :git => 'https://github.com/dhgwilliam/puppet-face-bucket.git',
-  :ref => '0.3.0'
-
 mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo.git',
   :ref => '1.5.0'
 
-#mod 'docker',
-#  :git => 'https://github.com/garethr/garethr-docker.git',
-#  :ref => 'v5.3.0'
+mod 'xinetd',
+  :git => 'https://github.com/puppetlabs/puppetlabs-xinetd.git',
+  :ref => '2.0.0'
 
-#mod 'puppet',
-#  :git => 'https://github.com/theforeman/puppet-puppet.git',
-#  :ref => '6.0.1'
+mod 'zypprepo',
+  :git => 'https://github.com/deadpoint/puppet-zypprepo.git',
+  :ref => 'master'
 
-#mod 'rabbitmq',
-#  :git => 'https://github.com/puppetlabs/puppetlabs-rabbitmq.git',
-#  :ref => '5.6.0'
